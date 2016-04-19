@@ -8,7 +8,8 @@ $('.tabs').on('toggled', function (event, tab) {
 $('.next-tab').click(function() {
   $('.tabs li.active').next().children('a').click();
 });
-$('.bxslider').bxSlider({
+//Testimonial Slider Features
+$('.bxslider-testimonials').bxSlider({
 	adaptiveHeight: true,
 	mode: 'fade',
   minSlides: 1,
@@ -16,6 +17,5 @@ $('.bxslider').bxSlider({
   slideMargin: 0
 }); 
 });
-
-
+//Calls Jquery
 $(document).foundation();
