@@ -8,11 +8,14 @@ $('.tabs').on('toggled', function (event, tab) {
 $('.next-tab').click(function() {
   $('.tabs li.active').next().children('a').click();
 });
-});
 $('.bxslider').bxSlider({
+	adaptiveHeight: true,
+	mode: 'fade',
   minSlides: 1,
   maxSlides: 2,
   slideMargin: 0
 }); 
+});
+
 
 $(document).foundation();
