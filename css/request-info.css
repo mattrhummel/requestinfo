@@ -7,16 +7,16 @@ body {
 .callout {
     background: url(../img/rfi-header.jpeg) no-repeat center center;
 	-webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
      background-size: cover;
-    color: #fff;
+    color: #ffffff;
     padding: 50px 0;
 }
 h1 {
 	margin: 0 auto;
 	float: none;
-	color: #fff;
+	color: #ffffff;
 	font-size: 1.8em;
 	font-family:  'Century Gothic', arial, sans-serif;
 }
@@ -33,10 +33,14 @@ h1 {
     padding: 10px 0;
 
 }
- ul.tabs.small-12.columns > li.tab-title.small-6.columns > a {
+.thumbnail img {
+    height: 80%;
+    width: 80%;
+}
+.tabs.small-12.columns > li.tab-title.small-6.columns > a {
     background-color: transparent;
  }
-li.tab-title {
+.tab-title {
   background-color: #cccccc;
   font-weight: 800;
   padding: 10px;
@@ -44,18 +48,21 @@ li.tab-title {
   display:  block;
   margin: 0;
 }
-li.tab-title.active {
+.tab-title.active {
     background-color: #ad1b31;
 }
-li.tab-title a {
+.tab-title a {
     background-color: none;
     padding: 0;
+}
+.prev-tab {
+    margin-right: 40px;
 }
 legend {
     display:  none;
 }
 .panel {
-	padding: 40px;
+	padding: 20px;
 }
 .testimonials {
      padding: 0;
@@ -93,7 +100,7 @@ span.student-title {
     color: #666666;
 }
 blockquote {
-    padding: 0 0 0 6px;
+    padding: 0;
     border-left: none;
     font-style: italic;   
 }
@@ -109,4 +116,22 @@ blockquote {
 }
 .alignright {
     float: right;
+}
+
+slide-pane {
+    background:#344A5E;
+    color:#FFF;
+}
+.text-pane {
+    
+    color:#FFF;
+    padding:20px 0 0 20px !important;
+}
+h1 {
+    font-size:22px;
+    color: #2ecc71;
+    font-weight: bold
+}
+p {
+    font-size:13px;
 }
