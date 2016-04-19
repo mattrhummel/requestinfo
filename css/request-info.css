@@ -28,6 +28,32 @@ h1 {
 .form-group, .testimonials {
 
 }
+.tab-title.small-6.columns {
+
+    padding: 10px 0;
+
+}
+ ul.tabs.small-12.columns > li.tab-title.small-6.columns > a {
+    background-color: transparent;
+ }
+li.tab-title {
+  background-color: #cccccc;
+  font-weight: 800;
+  padding: 10px;
+  line-height: 0;
+  display:  block;
+  margin: 0;
+}
+li.tab-title.active {
+    background-color: #ad1b31;
+}
+li.tab-title a {
+    background-color: none;
+    padding: 0;
+}
+legend {
+    display:  none;
+}
 .panel {
 	padding: 40px;
 }
